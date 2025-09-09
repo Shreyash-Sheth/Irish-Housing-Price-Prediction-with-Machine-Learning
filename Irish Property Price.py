@@ -32,7 +32,7 @@ import joblib
 # In[3]:
 
 
-CSV_PATH = "C:\\Users\\yashs\\Desktop\\Project\\Machine Learning\\irish_property_listings.csv"
+CSV_PATH = "irish_property_listings.csv"
 
 df_raw = pd.read_csv(CSV_PATH)
 print(df_raw.shape)
